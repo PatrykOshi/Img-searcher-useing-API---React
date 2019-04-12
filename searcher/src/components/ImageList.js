@@ -2,13 +2,16 @@ import React from 'react';
 
 
 
-const ImagesList = (props) => {
+class ImagesList extends React.Component{
+    constructor(props){
+        super(props);
+    }
 
-    let showInformation = () => {
-        if (props.images.length > 0) {
+    showInformation = () => {
+        if (this.props.images.length > 0) {
             return (
                 <p className="text-center">
-                    {`We found ${props.total} results`}
+                    {`We found ${this.props.total} results`}
                 </p>
             );
         }
@@ -17,15 +20,15 @@ const ImagesList = (props) => {
         }
     };
 
-    const showPictures = () => {
-        if(props.images.length > 0){
+    showPictures = () => {
+        if(this.props.images.length > 0){
             return(
                 <div className="container">
                     <div className="row">
-                        {props.images.map((pic,index) => {
+                        {this.props.images.map((pic,index) => {
                             return(
                                 <div className="col-12 col-md-4" key={index}>
-                                    <img className="img-fluid" src={pic.urls.regular} alt=""  />
+                                    <img className="img-fluid" src={pic.urls.regular} alt={pic.description == null ? "" : pic.description}  />
                                 </div>
                             );
                         })}
@@ -35,13 +38,15 @@ const ImagesList = (props) => {
         }
     };
 
-    return (
-      <div className="text-center">
-          {showInformation()}
-          {showPictures()}
-      </div>
-    );
-};
+    render(){
+        return (
+            <div className="text-center">
+                {this.showInformation()}
+                {this.showPictures()}
+            </div>
+        );
+    }
+}
 
 
 export default ImagesList;
