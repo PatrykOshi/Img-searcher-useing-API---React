@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbad0b71-e1eb-4b22-910b-3c511d995df9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/searcher/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searcher/src/components/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searcher/src/API/unsplash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searcher/src/components/ImageList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/searcher/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/searcher/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/searcher/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/searcher/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searcher/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searcher/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searcher/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/searcher/src/components/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/searcher/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -54,11 +44,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ImageList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searcher/src/components/ImageList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searcher/src/components/SearchBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="437">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unsplash.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searcher/src/API/unsplash.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -83,6 +91,10 @@
         <option value="$PROJECT_DIR$/searcher/public/index.html" />
         <option value="$PROJECT_DIR$/searcher/src/index.js" />
         <option value="$PROJECT_DIR$/searcher/src/components/SearchBar.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/searcher/src/components/API.js" />
+        <option value="$PROJECT_DIR$/searcher/src/API/unsplash.js" />
+        <option value="$PROJECT_DIR$/searcher/src/components/ImageList.js" />
         <option value="$PROJECT_DIR$/searcher/src/components/App.js" />
       </list>
     </option>
@@ -134,13 +146,14 @@
               <item name="Img-searcher-using-API---React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Img-searcher-using-API---React" type="462c0819:PsiDirectoryNode" />
               <item name="searcher" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Img-searcher-using-API---React" type="b2602c69:ProjectViewProjectNode" />
               <item name="Img-searcher-using-API---React" type="462c0819:PsiDirectoryNode" />
               <item name="searcher" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Img-searcher-using-API---React" type="b2602c69:ProjectViewProjectNode" />
@@ -166,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oshi\Desktop\React\training\Img-searcher-using-API---React" />
       <recent name="C:\Users\Oshi\Desktop\React\training\Img-searcher-using-API---React\searcher\src\bootstrap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -194,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555013321201</updated>
-      <workItem from="1555013323790" duration="11408000" />
+      <workItem from="1555013323790" duration="16460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11408000" />
+    <option name="totallyTimeSpent" value="16460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -227,17 +241,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/searcher/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -255,6 +270,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/searcher/src/components/API.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searcher/src/components/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searcher/src/API/unsplash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searcher/src/components/ImageList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/searcher/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -265,17 +311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searcher/src/components/SearchBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/searcher/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
