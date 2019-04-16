@@ -1,4 +1,4 @@
-Just a little project for practice a React library.
+Just a little project for practice a React framework.
 This app allows you to find tons of different pictures depends on what you typing in the search bar.
 
 
